@@ -1,3 +1,21 @@
-button{
+.button-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 20px 5px;
+}
+
+.styled {
+    display: block;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color:cornflowerblue;
+}
+
+.styled:hover {
     background-color: red;
 }
